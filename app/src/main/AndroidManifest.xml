@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.calorietrack">
+
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_REC‌​OGNITION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CalorieTrack">
+        <activity android:name=".breathe"></activity>
+        <activity android:name=".Bmi" />
+        <activity
+            android:name=".Portfolio"
+            android:label=""
+            android:theme="@style/NoAction" />
+        <activity
+            android:name=".Profile"
+            android:theme="@style/NoAction" />
+        <activity
+            android:name=".Pedometer"
+            android:theme="@style/NoAction" />
+        <activity
+            android:name=".Dashboard"
+            android:theme="@style/Dashboard" />
+        <activity
+            android:name=".FoodSelectActivity"
+            android:theme="@style/NoAction" />
+        <activity
+            android:name=".Signup"
+            android:theme="@style/NoAction" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/NoAction" />
+        <activity
+            android:name=".welcome"
+            android:theme="@style/NoAction" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/NoActionSplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

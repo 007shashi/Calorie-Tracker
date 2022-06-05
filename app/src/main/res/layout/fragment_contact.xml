@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="view.Contact">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="@dimen/_15sdp"
+        android:elevation="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="412dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-black"
+
+            android:padding="20dp"
+            android:text="contact 1: rahulreddy23feb@gmil.com \n                                 or \n contact 2:meghanaj123@gmail.com"
+            android:textColor="@color/lightblue"
+            android:textSize="20sp" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

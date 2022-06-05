@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CalorieTrack</string>
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">This App is a downsized version of many mini apps.The purpose of this application is to stay healthy by tracking the amount of calories consumed.
+    "\n\n"Calorie Tracking is a method used by people who want to reach their fitness goals sooner."\n\n"Exercise is an essential means to get to the dream physique which we
+    have always craved for but exercise alone isnt enough because as blunt as it may sound,abs are made in the kitchen."\n\n"Take the first step into turning yourself into a fitter version with this app.</string>
+    <string name="features">* BMI Calculator"\n""\n"* Pedometer"\n""\n"* 7 minute workout routine"\n""\n"* Breathe Aid "\n\n" *Food calorie Counter</string>
+    <string name="highlights">* The BMI calculator lets you calculate bmi and also mentions the ideal calorie intake"\n\n"
+    * Pedometer counts the number of steps taken in order to track calories burnt while walking or jogging"\n\n"
+    * The workout routine consists of a few basic exercises to help shed a few more pounds and burn calories"\n\n"
+    * The breathe app is an aid to practise efficient breathing technique"\n\n"
+    * The food calorie counter is the main aspect of this app and lets you know the calories consumed after inputting food items.</string>
+    <string name="contact">Hello blank fragment</string>
+
+    <string name="bmi_calculator">BMI CALCULATOR</string>
+    <string name="weight_kg">Weight(kg)</string>
+    <string name="height_cm">Height(cm)</string>
+    <string name="calculate_your_bmi">CALCULATE YOUR BMI</string>
+    <string name="_00">00</string>
+    <string name="your_bmi">Your BMI</string>
+    <string name="calculate_bmi_again">Calculate BMI again</string>
+    <string name="age">Age(years)</string>
+    <string name="daily_calorie_intake">Daily Calorie Intake</string>
+</resources>
